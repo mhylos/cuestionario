@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap" rel="stylesheet">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--STYLES-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <title>Questionary</title>
+</head>
+<body class="d-flex flex-column align-items-center">
+    <header>
+        <h1><a href="index.html">ICCI QUIZ</a></h1>
+    </header>
+    <main class="border border-dark rounded-bottom p-5 w-100 w-md-50">
+        <span><em>preguntas de</em></span><h2>Asignatura de ejemplo</h2>
+        <div>
+            Pregunta nº<span id="nro-preg">1</span>
+        </div>
+        <div>
+            <h3>Pregunta</h3>
+            <div>
+                <div class="form-check" respuesta-id="0">
+                    <input class="form-check-input custom-control-input" type="radio" name="resp" id="R0">
+                    <label class="form-check-label" for="R0">
+                        Alternativa 1
+                    </label>
+                </div>
+                <div class="form-check" respuesta-id="1">
+                    <input class="form-check-input custom-control-input" type="radio" name="resp" id="R1">
+                    <label class="form-check-label" for="R1">
+                        Alternativa 2
+                    </label>
+                </div>
+                <div class="form-check" respuesta-id="2">
+                    <input class="form-check-input custom-control-input" type="radio" name="resp" id="R2">
+                    <label class="form-check-label" for="R2">
+                        Alternativa 3
+                    </label>
+                </div>
+                <div class="form-check" respuesta-id="3">
+                    <input class="form-check-input custom-control-input" type="radio" name="resp" id="R3">
+                    <label class="form-check-label" for="R3">
+                        Alternativa 4
+                    </label>
+                </div>                
+            </div>
+            <div class="d-flex flex-row-reverse justify-content-between my-3">
+                <button type="button" class="btn btn-dark" onclick="correct()">Corregir</button>
+                <div>
+                    <span class="border border-success rounded p-2" id="correcto" style="display: none">Correcto</span>
+                    <span class="border border-danger rounded p-2" id="incorrecto" style="display: none">Incorrecto</span>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center gap-3">
+            <button type="button" class="btn btn-secondary" onclick="loadPrevContent()" style="display: none;" id="anterior">Anterior</button>
+            <button type="button" class="btn btn-primary" onclick="loadNextContent()" id="siguiente">Siguiente</button>
+        </div>
+    </main>
+    <!--BOOTSTRAP-->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+        crossorigin="anonymous"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+    <script 
+        src="js/quiz.js">
+    </script>
+</body>
+</html>

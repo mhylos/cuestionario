@@ -1,0 +1,33 @@
+[
+    {
+        "nombre":"Sistemas Operativos",
+        "id":"SO",
+        "contenidos": [
+            {"nombre":"Procesos e hilos", "id":"SO0" , "habilitado":0},
+            {"nombre":"Sincronización de procesos", "id":"SO1" , "habilitado":0}, 
+            {"nombre":"Manejo de memoria", "id":"SO2", "habilitado":1}
+        ]
+    },
+    {
+        "nombre":"Base de datos",
+        "id":"BD",
+        "contenidos": [
+            {"nombre":"Conceptos", "id":"BD0" , "habilitado":0},
+            {"nombre":"Consultas", "id":"BD1" , "habilitado":0}, 
+            {"nombre":"Modelo entidad-relacion", "id":"BD2", "habilitado":0},
+            {"nombre":"Modelo relacional", "id":"BD3", "habilitado":0}
+        ]
+    },
+    {
+        "nombre":"Gestión de empresa",
+        "id":"GE",
+        "contenidos": [
+            {"nombre":"Capitulo 1", "id":"GE0", "habilitado":0},
+            {"nombre":"Capitulo 2", "id":"GE1", "habilitado":0}, 
+            {"nombre":"Capitulo 3", "id":"GE2", "habilitado":0},
+            {"nombre":"Capitulo 9", "id":"GE3", "habilitado":0},
+            {"nombre":"Capitulo 10", "id":"GE4", "habilitado":0},
+            {"nombre":"Capitulo 11", "id":"GE5", "habilitado":0}
+        ]
+    }
+]

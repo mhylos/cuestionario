@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #3377FF;
+}
+
+h1, h2 {
+    font-family: 'B612', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+a,
+a:focus {
+    text-decoration: inherit;
+    color: inherit;
+    outline: none;
+}
+
+body {
+    margin: 10px;
+    background-image: url("/assets/img/bg.png");
+}
+
+main {
+    background-color: ghostwhite;
+}
+
+.btn-toogle[aria-expanded=false] .btn-expanded {
+    display: none;
+}
+
+.btn-toogle[aria-expanded=true] .btn-collapsed {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .collapse.dont-collapse-sm {
+      display: block;
+      height: auto !important;
+      visibility: visible;
+    }
+}

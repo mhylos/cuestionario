@@ -1,0 +1,25 @@
+.custom-control-input {
+    background-color: #6C757D;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.form-check-label {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .form-check-label {
+        font-size: 1rem;
+    }
+
+    main {
+        max-width: 80%;
+    }
+}

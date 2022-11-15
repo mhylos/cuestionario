@@ -1,0 +1,63 @@
+{
+    "nombre":"Sistemas Operativos",
+    "contenidos":
+    [
+        {
+            "id":"SO2",
+            "preguntas":[
+                {
+                    "contenido_preg":"¿Cuál de los siguientes algoritmos de reemplazo de página sufre la anomalía de Belady?",
+                    "retroalimentacion":"La anomalía de Belady demuestra que es posible tener más fallas de página al aumentar el número de marcos de página mientras se usa el algoritmo de reemplazo de página FIFO.",
+                    "respuestas":[
+                        {
+                            "respuesta_id":"R0",
+                            "contenido_resp":"FIFO",
+                            "correcta":1
+                        },
+                        {
+                            "respuesta_id":"R1",
+                            "contenido_resp":"LRU",
+                            "correcta":0
+                        },
+                        {
+                            "respuesta_id":"R2",
+                            "contenido_resp":"Optimo",
+                            "correcta":0
+                        },
+                        {
+                            "respuesta_id":"R3",
+                            "contenido_resp":"Ambos, LRU y FIFO",
+                            "correcta":0
+                        }
+                    ]
+                },
+                {
+                    "contenido_preg":"¿Para qué se utiliza el espacio de intercambio en el disco?",
+                    "retroalimentacion":"El espacio de intercambio se utiliza normalmente para almacenar datos de proceso.",
+                    "respuestas":[
+                        {
+                            "respuesta_id":"R0",
+                            "contenido_resp":"Guardar páginas html temporales",
+                            "correcta":0
+                        },
+                        {
+                            "respuesta_id":"R1",
+                            "contenido_resp":"Guardar datos de proceso",
+                            "correcta":1
+                        },
+                        {
+                            "respuesta_id":"R2",
+                            "contenido_resp":"Guardar el superbloque",
+                            "correcta":0
+                        },
+                        {
+                            "respuesta_id":"R3",
+                            "contenido_resp":"Guardar drivers de dispositivos",
+                            "correcta":0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
